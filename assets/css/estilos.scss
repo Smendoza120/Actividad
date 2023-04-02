@@ -1,0 +1,16 @@
+@import './mixinsx.scss';
+
+.header {
+  &-contenedor1 {
+    background: purple;
+  }
+  &-contenedor2 {
+    @include colores(green);
+  }
+  &-contenedor3{
+    background: pink;
+  }
+}
+
+
+@import './encabezado.scss';
