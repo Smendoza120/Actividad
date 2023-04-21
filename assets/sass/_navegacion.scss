@@ -1,0 +1,10 @@
+.nav{
+    &__lista{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        background: pink;
+        justify-content: center;
+    }
+}

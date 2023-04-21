@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section__lista {
+  display: flex;
+  background-color: purple;
+}
+@media (min-width: 500px) {
+  .section__lista {
+    flex-direction: column;
+  }
+}
+
+.nav__lista {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  background: pink;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

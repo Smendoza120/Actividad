@@ -1,0 +1,12 @@
+ @import './variables';
+.section{
+    &__lista{
+        display: flex;
+        background-color: $pupura;
+    }
+    @media (min-width: 500px) {
+        &__lista{
+            flex-direction: column;
+        }
+    }
+}
